@@ -18,10 +18,8 @@ while count<5:
     #4-1. 만약 num이 0~100 사이의 숫자가 아니라면
     if not 0<=num<=100:
         #4-2. 맞다면 continue시켜준다
-        continue
-    else:
-        #4-3. 아니라면 잘못된 숫자라고출력해준다
         print("잘못된 숫자를 입력 하셨습니다.")
+        continue
     #5. total에 num을 더해준다
     total+=num;
     #5. count에 1을 더해준다
