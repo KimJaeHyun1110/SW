@@ -18,3 +18,13 @@ for i in range(2,10):
         if i*j%2==0:
             #1-2-2-2. 맞다면 iXj의 과정과 결과를 친절하게 출력
             print("{} X {} = {}".format(i,j,i*j))
+i=2
+while i<=9:
+    print("==={}단===".format(i))
+    j=1
+    while j<=9:
+        if i*j%2==0:
+            #1-2-2-2. 맞다면 iXj의 과정과 결과를 친절하게 출력
+            print("{} X {} = {}".format(i,j,i*j))
+        j+=1
+    i+=1
