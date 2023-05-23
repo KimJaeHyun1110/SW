@@ -88,3 +88,21 @@ print("text1 내용을 스페이스로 분리하여 리스트 생성 : ", list1)
 text2="I-Like-Python-Language"
 print("text2 내용을 '-'를 기준으로 분리하여 리스트로 반환 : ", text2.split('-'))
 
+text3="          I Like Python Language     "
+print("text3 내용 : ",text3)
+print("text3 내용중 양 옆의 빈칸 제거 : ", text3.strip())
+
+print("text1 내용 중 'Like'를 'Love'로 대체 : ", text1.replace('like', 'love'))
+
+#문자열검사
+print("text1 의 모든 단어의 첫 문자가 대문자인가? ", text1.istitle())
+
+text4="abc"
+print("text4의 문자열이 문자와 숫자로 구성되어 있는가?", text1.istitle())
+
+text5="1234567890"
+print("text5의 문자열이 모두 숫자로 구성되어 있는가?", text5.isdigit())
+print("text5의 문자열이 모두 문자로 구성되어 있는가?", text5.isalpha())
+
+print("text1의 문자열이 모두 대문자로 구성되어 있는가?", text1.isupper())
+print("text1의 문자열이 모두 소문자로 구성되어 있는가?", text1.islower())
