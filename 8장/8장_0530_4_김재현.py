@@ -14,4 +14,4 @@ with open("Linetest.txt","w") as f:#파일 오픈(쓰기)
     f.writelines(list1) #줄 단위 텍스트 파일 쓰기
     #f.writelines(list2) #오류 발생. 리스트 내용이 정수일 경우 오류 발생.
 
-#with문을 사용하여 파일 객체를 생성하는 경우 f.close()를 쓸필요없다.
+#with문을 사용하여 파일 객체를 생성하는 경우 f.close()를 쓸 필요 없다.
