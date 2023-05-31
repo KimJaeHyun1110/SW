@@ -22,3 +22,10 @@ print("세트 set2 내용 : ",set2)
 print("set1과 set2의 합집합",set1|set2)
 print("set1과 set2의 교집합",set1&set2)
 print("set1과 set2의 차집합",set1-set2)
+'''
+세트 set1 내용 :  {1, 2, 3, 5, 8, 9, 10}
+세트 set2 내용 :  {1, 2, 4, 5, 6, 10}
+set1과 set2의 합집합 {1, 2, 3, 4, 5, 6, 8, 9, 10}
+set1과 set2의 교집합 {1, 2, 10, 5}
+set1과 set2의 차집합 {8, 9, 3}
+'''

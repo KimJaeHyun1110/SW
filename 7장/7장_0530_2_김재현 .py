@@ -39,7 +39,7 @@ while True:
         #4-2-2. 거짓이라면 만약 검색값의 출력이 비어있는가?
         #if dict1.get(num,'')=='':
         #if dict1.get(num)==None:
-        if num in dict1:
+        if num in dict1:#dict1안에 num의 값이 있는가?
             #4-2-2-1. 참이라면 학생 정보 출력
             print("입력한 학번에 해당하는 학생의 이름 : ",dict1.get(num))
             print("학번 : ",num,"이름 : ",dict1.get(num))
